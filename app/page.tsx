@@ -1,7 +1,7 @@
 import Hero from '@/components/home/hero'
 import SaaS from '@/components/home/saas'
 import ShortedPost from '@/components/home/shorted-post'
-import ShortedProject from '@/components/home/shorted-project'
+// import ShortedProject from '@/components/home/shorted-project'
 import React from 'react'
 
 const page = () => {
@@ -11,7 +11,7 @@ const page = () => {
     <main className='containers'>
       <Hero/>
       <ShortedPost/>
-      <ShortedProject/>
+      {/* <ShortedProject/> */}
       <SaaS/>
     </main>
     </>
